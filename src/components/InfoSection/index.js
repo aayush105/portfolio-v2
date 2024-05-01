@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import my_image from '../../images/image1.jpg'
+import my_image from '../../images/image.png'
 import Typewriter from 'typewriter-effect';
 import { Bio } from '../../data/my_details';
 import ImageAnimation from '../../ImageAnimation';
@@ -41,7 +41,7 @@ export const ResumeButton = styled.a`
 `;
 
 export const HeroContainer = styled.div`
-  background: ${({ theme }) => theme.card_light};
+  background: ${({ theme }) => theme.bg};
   display: flex;
   justify-content: center;
   position: relative;
@@ -137,8 +137,8 @@ export const Img = styled.img`
   height: 100%;
   max-width: 400px;
   max-height: 400px;
-  border-radius: 50%;
-  border: 2px solid ${({ theme }) => theme.primary};
+  /* border-radius: 15%; */
+  /* border: 2px solid ${({ theme }) => theme.primary}; */
 
   @media (max-width: 768px) {
     max-width: 400px;
@@ -232,7 +232,6 @@ const Info = () => {
                     </HeroLeftContainer>
 
                     <HeroRightContainer id="Right">
-
                         <Img src={my_image} alt="hero-image" />
                     </HeroRightContainer>
                 </HeroInnerContainer>

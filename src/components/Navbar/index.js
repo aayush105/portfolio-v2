@@ -2,12 +2,13 @@ import React from 'react'
 import { FaBars } from 'react-icons/fa'
 import { Link as LinkR } from 'react-router-dom'
 import styled from 'styled-components'
-import { DiCssdeck } from 'react-icons/di'
 import { useTheme } from 'styled-components';
 import { Bio } from '../../data/my_details';
+import logo from '../../images/aayush7.png';
+
 
 export const Nav = styled.div`
-    background-color: ${({theme}) => theme.card_light};
+    background-color: ${({theme}) => theme.bg};
     height: 80px;
     display: flex;
     align-items: center;
@@ -20,6 +21,7 @@ export const Nav = styled.div`
         trastion: 0.8s all ease;
     }
 `;
+
 export const NavbarContainer = styled.div`
   display: flex;
   justify-content: space-between;
@@ -76,7 +78,6 @@ export const NavLink = styled.a`
     }
 `;
 
-
 export const GitHubButton = styled.a`
   border: 1.8px solid ${({ theme }) => theme.primary};
   justify-content: center;
@@ -112,7 +113,6 @@ export const ButtonContainer = styled.div`
   }
 `;
 
-
 export const MobileIcon = styled.div`
   display: none;
   @media screen and (max-width: 768px) {
@@ -125,7 +125,7 @@ export const MobileIcon = styled.div`
     cursor: pointer;
     color: ${({ theme }) => theme.text_primary};
   }
-`
+`;
 
 export const MobileMenu = styled.div`
     display: flex;
@@ -144,8 +144,7 @@ export const MobileMenu = styled.div`
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
     opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
     z-index: ${({ isOpen }) => (isOpen ? '1000' : '-1000')};
-
-`
+`;
 
 export const MobileMenuItems = styled.ul`
   display: flex;
@@ -156,7 +155,7 @@ export const MobileMenuItems = styled.ul`
   list-style: none;
   width: 100%;
   height: 100%;
-`
+`;
 
 export const MobileMenuLink = styled(LinkR)`
   color: ${({ theme }) => theme.text_primary};
@@ -237,8 +236,9 @@ const Navbar = () => {
               cursor: 'pointer' 
             }}
           >
-            <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+             <img src={logo} alt="My Logo" width="150" height="40" />
           </a>
+          
         </NavLogo>
         <MobileIcon>
           <FaBars onClick={() => {
