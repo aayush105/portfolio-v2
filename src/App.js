@@ -40,6 +40,7 @@ function App() {
           <Info />
           <Wrapper>
             <Skills />
+            {/* <Achievement /> */}
             <Education />
           </Wrapper>
         </Body>
