@@ -6,6 +6,7 @@ import { VerticalTimeline } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 
 const Container = styled.div`
+/* background-color: ${({ theme }) => theme.bg}; */
 margin-top: 100px;
 display: flex;
 flex-direction: column;
@@ -15,6 +16,7 @@ z-index: 1;
 align-items: center;
 `;
 const Wrapper = styled.div`
+  
   position: relative;
   display: flex;
   justify-content: space-between;

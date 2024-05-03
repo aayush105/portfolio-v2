@@ -1,3 +1,5 @@
+import simon from "../images/simon.png"
+
 export const Bio = {
   name: "Aayush Shrestha",
   roles: [
@@ -366,10 +368,78 @@ export const projects = [
       "JDBC",
       "Thymeleaf",
     ],
-    category: "web app",
+    category: "Desktop app",
     github: "https://github.com/aayush105/supermarket-billing-system",
     // webapp: "",
   },
+  {
+    id: 5,
+    title: "Simon Game",
+    image: "https://github.com/aayush105/portfolio-v2/blob/master/src/images/simon.png",
+    description: "It's a simon game develop using HTML, CSS and Javascript. The game is a memory game where the user has to remember the sequence of colors and repeat it. The game gets harder as the user progresses.",
+    tags: [
+      "Javascript",
+      "Css",
+      "Html",
+    ],
+    category: "games",
+    github: "https://github.com/aayush105/Simon-Game",
+    webapp: "https://aayush105.github.io/Simon-Game/",
+  },
+  {
+    id: 6,
+    title: "Drum Kit",
+    image: "https://github.com/aayush105/portfolio-v2/blob/master/src/images/drum.png",
+    description: "It's a drum kit where music can be played by pressing the keys on the keyboard. The keys are mapped to different sounds and the user can play music by pressing the keys.",
+    tags: [
+      "Javascript",
+      "Css",
+      "Html",
+    ],
+    category: "games",
+    github: "https://github.com/aayush105/Drum-Kit",
+    webapp: "https://aayush105.github.io/Drum-Kit/",
+  },
+  {
+    id: 7,
+    title: "Dice Game",
+    image: "https://github.com/aayush105/portfolio-v2/blob/master/src/images/dice.png",
+    description: "It's a dice game where two players can play. The player who gets the higher number on the dice wins. The game can be played by clicking the roll dice button.",
+    tags: [
+      "Javascript",
+      "Css",
+      "Html",
+    ],
+    category: "games",
+    github: "https://github.com/aayush105/Dice-Game-Challenge",
+    webapp: "https://aayush105.github.io/Dice-Game-Challenge/",
+  },
+  {
+    id: 8,
+    title: "Tindog",
+    image: "https://github.com/aayush105/portfolio-v2/blob/master/src/images/tindog.png",
+    description: "It's a website for dogs where you can buy dogs. The website is designed using HTML, CSS and Bootstrap. The website is responsive and can be viewed on any device.",
+    tags: [
+      "Css",
+      "Html",
+    ],
+    category: "web app",
+    github: "https://github.com/aayush105/tindog",
+    webapp: "https://aayush105.github.io/tindog/",
+  },
+  // {
+  //   id: 9,
+  //   title: "Tindog",
+  //   image: "/images/tindog.png",
+  //   description: "It's a website for dogs where you can buy dogs. The website is designed using HTML, CSS and Bootstrap. The website is responsive and can be viewed on any device.",
+  //   tags: [
+  //     "Css",
+  //     "Html",
+  //   ],
+  //   category: "games",
+  //   github: "https://github.com/aayush105/tindog",
+  //   webapp: "https://aayush105.github.io/tindog/",
+  // },
 
   // format 
 

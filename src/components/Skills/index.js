@@ -4,6 +4,7 @@ import { skills } from "../../data/my_details";
 import { Tilt } from "react-tilt";
 
 const Container = styled.div`
+/* background-color: ${({ theme }) => theme.bg}; */
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -13,6 +14,7 @@ align-items: center;
 `;
 
 const Wrapper = styled.div`
+  
   position: relative;
   display: flex;
   justify-content: space-between;
