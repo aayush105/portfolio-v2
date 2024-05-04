@@ -427,19 +427,21 @@ export const projects = [
     github: "https://github.com/aayush105/tindog",
     webapp: "https://aayush105.github.io/tindog/",
   },
-  // {
-  //   id: 9,
-  //   title: "Tindog",
-  //   image: "/images/tindog.png",
-  //   description: "It's a website for dogs where you can buy dogs. The website is designed using HTML, CSS and Bootstrap. The website is responsive and can be viewed on any device.",
-  //   tags: [
-  //     "Css",
-  //     "Html",
-  //   ],
-  //   category: "games",
-  //   github: "https://github.com/aayush105/tindog",
-  //   webapp: "https://aayush105.github.io/tindog/",
-  // },
+  {
+    id: 9,
+    title: "Keeper",
+    image: "/images/tindog.png",
+    description: "It's a website to keep notes. The website is designed using React Js, Node Js and CSS. The website is responsive and can be viewed on any device.",
+    tags: [
+      "React Js",
+      "Css",
+      "Node Js",
+      
+    ],
+    category: "web app",
+    github: "https://github.com/aayush105/keeper",
+    // webapp: "https://aayush105.github.io/tindog/",
+  },
 
   // format 
 
