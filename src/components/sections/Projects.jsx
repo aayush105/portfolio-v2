@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import { projects } from "../../data/my_details";
-import ProjectCard from "../../Cards/ProjectCard";
+import { projects } from "../../data/constants";
+import ProjectCard from "../cards/ProjectCard";
 
 const Container = styled.div`
 margin-top: 100px;
@@ -104,7 +104,8 @@ const Projects = ({ openModal, setOpenModal }) => {
             marginBottom: "40px",
           }}
         >
-          I have worked on a wide range of projects. Here are some of my projects.
+          I have worked on a wide range of projects. From web apps to android
+          apps. Here are some of my projects.
         </Desc>
         <ToggleButtonGroup>
           <ToggleButton
@@ -121,13 +122,13 @@ const Projects = ({ openModal, setOpenModal }) => {
             WEB APP"S
           </ToggleButton>
           <Divider />
-          <Divider />
           <ToggleButton
             active={toggle === "games"}
             onClick={() => setToggle("games")}
           >
             GAMES
           </ToggleButton>
+          <Divider />
         </ToggleButtonGroup>
         <CardContainer>
           {toggle === "all" &&

@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 
 const Card = styled.div`
-
   width: 330px;
   height: 490px;
   background-color: ${({ theme }) => theme.card};
@@ -97,12 +96,6 @@ const Avatar = styled.img`
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   border: 3px solid ${({ theme }) => theme.card};
 `;
-const Button = styled.a`
-  color: ${({ theme }) => theme.primary};
-  text-decoration: none;
-  font-weight: 600;
-  text-align: center;
-`;
 
 const ProjectCard = ({ project, setOpenModal }) => {
   return (
@@ -117,9 +110,12 @@ const ProjectCard = ({ project, setOpenModal }) => {
         <Title>{project.title}</Title>
         <Date>{project.date}</Date>
         <Description>{project.description}</Description>
-        
       </Details>
-
+      <Members>
+        {project.member?.map((member) => (
+          <Avatar src={member.img} />
+        ))}
+      </Members>
     </Card>
   );
 };

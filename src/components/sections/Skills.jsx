@@ -1,20 +1,17 @@
 import React from "react";
 import styled from "styled-components";
-import { skills } from "../../data/my_details";
+import { skills } from "../../data/constants";
 import { Tilt } from "react-tilt";
 
 const Container = styled.div`
-/* background-color: ${({ theme }) => theme.bg}; */
 display: flex;
 flex-direction: column;
-justify-content: center;
+justify-content:center;
 position: relative;
 z-index: 1;
 align-items: center;
 `;
-
 const Wrapper = styled.div`
-  
   position: relative;
   display: flex;
   justify-content: space-between;
