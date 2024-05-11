@@ -1,3 +1,13 @@
+import h2dc from "../images/h2dc.png";
+import ioe from "../images/ioe.png";
+import dice from "../images/dice.png";
+import drum from "../images/drum.png";
+import simon from "../images/simon.png";
+import tindog from "../images/tindog.png";
+import blog from "../images/blog.png";
+import blog1 from "../images/blog1.png";
+import keeper from "../images/keeper.png";
+
 export const Bio = {
   name: "Aayush Shrestha",
   roles: [
@@ -142,6 +152,8 @@ export const experiences = [
     desc: "I am currently working as a Software Engineer Intern at Softshala Nepal, where I am working on exciting projects and learning new technologies. I am working on a project that involves building a web application using ReactJS and API development. I am learning and working on exciting projects with a team of talented developers.",
     skills: [
       "ReactJS",
+      "Next js",
+      "Chakra UI",
       "Redux",
       "API",
       "Tailwind CSS",
@@ -200,7 +212,7 @@ export const projects = [
   {
     id: 0,
     title: "HAND DRAWN CIRCUIT TO DIGITAL CIRCUIT",
-    // image: "",
+    image: h2dc,
     description: "Leading an ongoing major project focused on converting hand-drawn circuits into digital circuits. Using image processing and circuit analysis techniques, the aim is to accurately recreate circuit layouts digitally. This initiative simplifies circuit design by employing software tools to replicate and test circuits for functionality and precision.",
     tags: [
       "Python",
@@ -245,7 +257,7 @@ export const projects = [
   {
     id: 1,
     title: "IOE RESULT AND NOTICE VIEWER WEBSITE",
-    // image: "",
+    image: ioe,
     description: "IOE Result and Notice Viewer is a website that provides result status, notice viewing, subscribing and query/contact features. The results are sent automatically via email to the registered users, allows the user to view the notices published by IOE. It utilizes Python, Django, SQL, OCR and automation for email notifications.",
     tags: [
       "Python",
@@ -253,7 +265,6 @@ export const projects = [
       "OCR",
       "Email Automation",
       "Web scarpping",
-      "Django",
       "HTML",
       "CSS",
       "Bootstrap",
@@ -291,7 +302,7 @@ export const projects = [
   {
     id: 2,
     title: "BLOG WEBSITE",
-    // image: "",
+    image: blog,
     description: "The blog website uses MERN (MongoDB, Express.js, React.js, and Node.js) to create a platform where you can add daily blog posts. These posts are stored in a connected database, making it easy to manage and access your blogs.",
     tags: [
       "React Js",
@@ -305,6 +316,21 @@ export const projects = [
   },
   {
     id: 3,
+    title: "Keeper",
+    image: keeper,
+    description: "It's a website to keep notes. The website is designed using React Js, Node Js and CSS. The website is responsive and can be viewed on any device.",
+    tags: [
+      "React Js",
+      "Css",
+      "Node Js",
+      
+    ],
+    category: "web app",
+    github: "https://github.com/aayush105/keeper",
+    // webapp: "https://aayush105.github.io/tindog/",
+  },
+  {
+    id: 4,
     title: "BOOK COURSE APPLICATION",
     // image: "",
     description: "Book Course uses Spring Boot (backend) and React.js (frontend) with SQL for database. It lets you add, edit, and delete books. The backend&apos;s API connects smoothly to the frontend via Axios for easy communication. The app offers a straightforward interface, employing Reactstrap for responsiveness and smooth navigation.",
@@ -321,7 +347,7 @@ export const projects = [
     // webapp: "",
   },
   {
-    id: 4,
+    id: 5,
     title: "SUPERMARKET BILLING SYSTEM",
     image: "https://github.com/aayush105/supermarket-billing-system/raw/master/Admin.png",
     description: "Developed a Java-based Supermarket Billing System using Swing, enabling easy management of supermarket tasks like billing, sales, transactions, and stock details. Designed separate interfaces for Admin and Cashier roles to streamline their specific responsibilities for efficient operation.",
@@ -338,9 +364,9 @@ export const projects = [
     // webapp: "",
   },
   {
-    id: 5,
+    id: 6,
     title: "Simon Game",
-    image: "https://github.com/aayush105/portfolio-v2/blob/master/src/images/simon.png",
+    image: simon,
     description: "It's a simon game develop using HTML, CSS and Javascript. The game is a memory game where the user has to remember the sequence of colors and repeat it. The game gets harder as the user progresses.",
     tags: [
       "Javascript",
@@ -352,9 +378,9 @@ export const projects = [
     webapp: "https://aayush105.github.io/Simon-Game/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Drum Kit",
-    image: "https://github.com/aayush105/portfolio-v2/blob/master/src/images/drum.png",
+    image: drum,
     description: "It's a drum kit where music can be played by pressing the keys on the keyboard. The keys are mapped to different sounds and the user can play music by pressing the keys.",
     tags: [
       "Javascript",
@@ -366,9 +392,9 @@ export const projects = [
     webapp: "https://aayush105.github.io/Drum-Kit/",
   },
   {
-    id: 7,
+    id: 8,
     title: "Dice Game",
-    image: "https://github.com/aayush105/portfolio-v2/blob/master/src/images/dice.png",
+    image: dice,
     description: "It's a dice game where two players can play. The player who gets the higher number on the dice wins. The game can be played by clicking the roll dice button.",
     tags: [
       "Javascript",
@@ -380,9 +406,9 @@ export const projects = [
     webapp: "https://aayush105.github.io/Dice-Game-Challenge/",
   },
   {
-    id: 8,
+    id: 9,
     title: "Tindog",
-    image: "https://github.com/aayush105/portfolio-v2/blob/master/src/images/tindog.png",
+    image: tindog,
     description: "It's a website for dogs where you can buy dogs. The website is designed using HTML, CSS and Bootstrap. The website is responsive and can be viewed on any device.",
     tags: [
       "Css",
@@ -392,21 +418,17 @@ export const projects = [
     github: "https://github.com/aayush105/tindog",
     webapp: "https://aayush105.github.io/tindog/",
   },
-  {
-    id: 9,
-    title: "Keeper",
-    image: "/images/tindog.png",
-    description: "It's a website to keep notes. The website is designed using React Js, Node Js and CSS. The website is responsive and can be viewed on any device.",
-    tags: [
-      "React Js",
-      "Css",
-      "Node Js",
-      
-    ],
-    category: "web app",
-    github: "https://github.com/aayush105/keeper",
-    // webapp: "https://aayush105.github.io/tindog/",
-  },
+  
+  // {
+  //   id: 1,
+  //   title: "ShareHub",
+  //   description: "",
+  //   tags: [],
+  //   category: "web app",
+  //   github: "",
+  //   webapp: "",
+  
+  // },
 
   // format 
 

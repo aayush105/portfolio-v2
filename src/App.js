@@ -12,7 +12,6 @@ import Projects from "./components/sections/Projects";
 import Footer from "./components/sections/Footer";
 import ProjectDetails from "./components/Dialog/ProjectDetails";
 import { useState } from "react";
-import EarthCanvas from "./components/canvas/Earth";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -55,7 +54,6 @@ function App() {
               <Projects openModal={openModal} setOpenModal={setOpenModal} />
               <Wrapper>
                 <Education />
-                <EarthCanvas />
               </Wrapper>
               <Footer />
 
