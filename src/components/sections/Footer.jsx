@@ -81,13 +81,13 @@ const Footer = () => {
     <FooterContainer>
       <FooterWrapper>
         <Logo>Aayush Shrestha</Logo>
-        <Nav>
+        {/* <Nav>
           <NavLink href="#About">About</NavLink>
           <NavLink href="#Skills">Skills</NavLink>
           <NavLink href="#Experience">Experience</NavLink>
           <NavLink href="#Projects">Projects</NavLink>
           <NavLink href="#Education">Education</NavLink>
-        </Nav>
+        </Nav> */}
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.github} target="display">
             <GithubIcon />

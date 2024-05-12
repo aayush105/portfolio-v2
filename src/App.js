@@ -12,6 +12,8 @@ import Projects from "./components/sections/Projects";
 import Footer from "./components/sections/Footer";
 import ProjectDetails from "./components/Dialog/ProjectDetails";
 import { useState } from "react";
+import ScrollButton from "./components/TopScrollButton";
+import { TopicSharp } from "@mui/icons-material";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -56,6 +58,7 @@ function App() {
                 <Education />
               </Wrapper>
               <Footer />
+              <ScrollButton />
 
               {openModal.state && (
                 <ProjectDetails
