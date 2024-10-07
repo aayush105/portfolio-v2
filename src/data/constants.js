@@ -5,17 +5,13 @@ import drum from "../images/drum.png";
 import simon from "../images/simon.png";
 import tindog from "../images/tindog.png";
 import blog from "../images/blog.png";
-import blog1 from "../images/blog1.png";
 import keeper from "../images/keeper.png";
 
 export const Bio = {
   name: "Aayush Shrestha",
-  roles: [
-    "Computer Engineer",
-    "Full Stack Developer",
-    "Programmer",
-  ],
-  description:"Dedicated and driven Computer Engineering student with a passion for technology and problem-solving. Quick learner with a strong adaptability to new technologies and programming languages. ",
+  roles: ["Computer Engineer", "Full Stack Developer", "Programmer"],
+  description:
+    "Dedicated and driven Computer Engineering student with a passion for technology and problem-solving. Quick learner with a strong adaptability to new technologies and programming languages. ",
   github: "https://github.com/aayush105",
   resume:
     "https://drive.google.com/file/d/1-KOxra-1C-i1vWI-01RfiQfGoaBdSxUl/view?usp=sharing",
@@ -103,14 +99,14 @@ export const skills = [
       {
         name: "Firebase",
         image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-      },   
+      },
     ],
   },
   {
     title: "Others",
     skills: [
       {
-      name: "Git",
+        name: "Git",
         image:
           "https://e7.pngegg.com/pngimages/713/558/png-clipart-computer-icons-pro-git-github-logo-text-logo-thumbnail.png",
       },
@@ -136,8 +132,8 @@ export const skills = [
       },
       {
         name: "Vercel",
-        image: "https://www.svgrepo.com/show/327408/logo-vercel.svg"
-      }
+        image: "https://www.svgrepo.com/show/327408/logo-vercel.svg",
+      },
     ],
   },
 ];
@@ -148,7 +144,7 @@ export const experiences = [
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAnqQygJpRhaJhgxZqB0IhKoL35XeovD66vjddghdS4w&s",
     role: "Software Engineer Intern",
     company: "Softshala Nepal",
-    date: "May 2024 - Present",
+    date: "May 2024 - July 2024",
     desc: "I am currently working as a Software Engineer Intern at Softshala Nepal, where I am working on exciting projects and learning new technologies. I am working on a project that involves building a web application using ReactJS and API development. I am learning and working on exciting projects with a team of talented developers.",
     skills: [
       "ReactJS",
@@ -163,29 +159,49 @@ export const experiences = [
     ],
     // doc: "",
   },
-    //    {
-    //     id: 1,
-    //     img: "xyz",
-    //     role: "xyz",
-    //     company: "xyz",
-    //     date: "June 2023 - Present",
-    //     desc: "xyz",
-    //     skills: [
-    //       "xyz",
-    //       "xyz",
-    //     ],
-    //     doc: "xyz",
-    //   },
+  {
+    id: 1,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAnqQygJpRhaJhgxZqB0IhKoL35XeovD66vjddghdS4w&s",
+    role: "Software Engineer",
+    company: "Softshala Nepal",
+    date: "Aug 2024 - Present",
+    desc: "I am currently working as a Software Engineer Intern at Softshala Nepal, where I am working on exciting projects and learning new technologies. I am working on a project that involves building a web application using ReactJS and API development. I am learning and working on exciting projects with a team of talented developers.",
+    skills: [
+      "ReactJS",
+      "Next js",
+      "Chakra UI",
+      "Redux",
+      "API",
+      "Tailwind CSS",
+      "HTML",
+      "CSS",
+      "JavaScript",
+    ],
+    // doc: "",
+  },
+  //    {
+  //     id: 1,
+  //     img: "xyz",
+  //     role: "xyz",
+  //     company: "xyz",
+  //     date: "June 2023 - Present",
+  //     desc: "xyz",
+  //     skills: [
+  //       "xyz",
+  //       "xyz",
+  //     ],
+  //     doc: "xyz",
+  //   },
 ];
 
 export const education = [
   {
     id: 0,
-    img: "https://kec.edu.np/wp-content/uploads/2019/09/KEC_logo.png",
+    img: "https://kec.edu.np/wp-content/uploads/2024/06/KEC-College-logo-2-1.png",
     school: "kantipur Engineering College, Dhapakhel,Lalitpur",
-    date: "2020 - Present",
-    grade: "Recent Percentage: 80.96%",
-    desc: "I am currently pursuing a Bachelor&apos;s degree in Computer Engineering at kantipur Engineering College, Dhapakhel,Lalitpur.",
+    date: "2020 - 2024",
+    grade: "Overall Percentage: 78.43%",
+    desc: "I completed my Bachelor's degree in Computer Engineering at kantipur Engineering College, Dhapakhel,Lalitpur.",
     degree: "Bachelor in Computer Engineering",
   },
   {
@@ -213,7 +229,8 @@ export const projects = [
     id: 0,
     title: "HAND DRAWN CIRCUIT TO DIGITAL CIRCUIT",
     image: h2dc,
-    description: "Leading an ongoing major project focused on converting hand-drawn circuits into digital circuits. Using image processing and circuit analysis techniques, the aim is to accurately recreate circuit layouts digitally. This initiative simplifies circuit design by employing software tools to replicate and test circuits for functionality and precision.",
+    description:
+      "Leading an ongoing major project focused on converting hand-drawn circuits into digital circuits. Using image processing and circuit analysis techniques, the aim is to accurately recreate circuit layouts digitally. This initiative simplifies circuit design by employing software tools to replicate and test circuits for functionality and precision.",
     tags: [
       "Python",
       "Streamlit",
@@ -258,7 +275,8 @@ export const projects = [
     id: 1,
     title: "IOE RESULT AND NOTICE VIEWER WEBSITE",
     image: ioe,
-    description: "IOE Result and Notice Viewer is a website that provides result status, notice viewing, subscribing and query/contact features. The results are sent automatically via email to the registered users, allows the user to view the notices published by IOE. It utilizes Python, Django, SQL, OCR and automation for email notifications.",
+    description:
+      "IOE Result and Notice Viewer is a website that provides result status, notice viewing, subscribing and query/contact features. The results are sent automatically via email to the registered users, allows the user to view the notices published by IOE. It utilizes Python, Django, SQL, OCR and automation for email notifications.",
     tags: [
       "Python",
       "Sql",
@@ -303,13 +321,9 @@ export const projects = [
     id: 2,
     title: "BLOG WEBSITE",
     image: blog,
-    description: "The blog website uses MERN (MongoDB, Express.js, React.js, and Node.js) to create a platform where you can add daily blog posts. These posts are stored in a connected database, making it easy to manage and access your blogs.",
-    tags: [
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",   
-    ],
+    description:
+      "The blog website uses MERN (MongoDB, Express.js, React.js, and Node.js) to create a platform where you can add daily blog posts. These posts are stored in a connected database, making it easy to manage and access your blogs.",
+    tags: ["React Js", "MongoDb", "Node Js", "Express Js"],
     category: "web app",
     github: "https://github.com/aayush105/Blog-website",
     // webapp: "",
@@ -318,13 +332,9 @@ export const projects = [
     id: 3,
     title: "Keeper",
     image: keeper,
-    description: "It's a website to keep notes. The website is designed using React Js, Node Js and CSS. The website is responsive and can be viewed on any device.",
-    tags: [
-      "React Js",
-      "Css",
-      "Node Js",
-      
-    ],
+    description:
+      "It's a website to keep notes. The website is designed using React Js, Node Js and CSS. The website is responsive and can be viewed on any device.",
+    tags: ["React Js", "Css", "Node Js"],
     category: "web app",
     github: "https://github.com/aayush105/keeper",
     // webapp: "https://aayush105.github.io/tindog/",
@@ -333,32 +343,24 @@ export const projects = [
     id: 4,
     title: "BOOK COURSE APPLICATION",
     // image: "",
-    description: "Book Course uses Spring Boot (backend) and React.js (frontend) with SQL for database. It lets you add, edit, and delete books. The backend&apos;s API connects smoothly to the frontend via Axios for easy communication. The app offers a straightforward interface, employing Reactstrap for responsiveness and smooth navigation.",
-    tags: [
-      "Spring Boot",
-      "React Js",
-      "SQL",
-      "Axios",
-      "Reactstrap",
-      "API",
-    ],
+    description:
+      "Book Course uses Spring Boot (backend) and React.js (frontend) with SQL for database. It lets you add, edit, and delete books. The backend&apos;s API connects smoothly to the frontend via Axios for easy communication. The app offers a straightforward interface, employing Reactstrap for responsiveness and smooth navigation.",
+    tags: ["Spring Boot", "React Js", "SQL", "Axios", "Reactstrap", "API"],
     category: "web app",
-    github: ["https://github.com/aayush105/book-course-backend","https://github.com/aayush105/book-course-web"],
+    github: [
+      "https://github.com/aayush105/book-course-backend",
+      "https://github.com/aayush105/book-course-web",
+    ],
     // webapp: "",
   },
   {
     id: 5,
     title: "SUPERMARKET BILLING SYSTEM",
-    image: "https://github.com/aayush105/supermarket-billing-system/raw/master/Admin.png",
-    description: "Developed a Java-based Supermarket Billing System using Swing, enabling easy management of supermarket tasks like billing, sales, transactions, and stock details. Designed separate interfaces for Admin and Cashier roles to streamline their specific responsibilities for efficient operation.",
-    tags: [
-      "Java",
-      "Swing",
-      "Netbeans",
-      "SQL",
-      "JDBC",
-      "Thymeleaf",
-    ],
+    image:
+      "https://github.com/aayush105/supermarket-billing-system/raw/master/Admin.png",
+    description:
+      "Developed a Java-based Supermarket Billing System using Swing, enabling easy management of supermarket tasks like billing, sales, transactions, and stock details. Designed separate interfaces for Admin and Cashier roles to streamline their specific responsibilities for efficient operation.",
+    tags: ["Java", "Swing", "Netbeans", "SQL", "JDBC", "Thymeleaf"],
     category: "Desktop app",
     github: "https://github.com/aayush105/supermarket-billing-system",
     // webapp: "",
@@ -367,12 +369,9 @@ export const projects = [
     id: 6,
     title: "Simon Game",
     image: simon,
-    description: "It's a simon game develop using HTML, CSS and Javascript. The game is a memory game where the user has to remember the sequence of colors and repeat it. The game gets harder as the user progresses.",
-    tags: [
-      "Javascript",
-      "Css",
-      "Html",
-    ],
+    description:
+      "It's a simon game develop using HTML, CSS and Javascript. The game is a memory game where the user has to remember the sequence of colors and repeat it. The game gets harder as the user progresses.",
+    tags: ["Javascript", "Css", "Html"],
     category: "games",
     github: "https://github.com/aayush105/Simon-Game",
     webapp: "https://aayush105.github.io/Simon-Game/",
@@ -381,12 +380,9 @@ export const projects = [
     id: 7,
     title: "Drum Kit",
     image: drum,
-    description: "It's a drum kit where music can be played by pressing the keys on the keyboard. The keys are mapped to different sounds and the user can play music by pressing the keys.",
-    tags: [
-      "Javascript",
-      "Css",
-      "Html",
-    ],
+    description:
+      "It's a drum kit where music can be played by pressing the keys on the keyboard. The keys are mapped to different sounds and the user can play music by pressing the keys.",
+    tags: ["Javascript", "Css", "Html"],
     category: "games",
     github: "https://github.com/aayush105/Drum-Kit",
     webapp: "https://aayush105.github.io/Drum-Kit/",
@@ -395,12 +391,9 @@ export const projects = [
     id: 8,
     title: "Dice Game",
     image: dice,
-    description: "It's a dice game where two players can play. The player who gets the higher number on the dice wins. The game can be played by clicking the roll dice button.",
-    tags: [
-      "Javascript",
-      "Css",
-      "Html",
-    ],
+    description:
+      "It's a dice game where two players can play. The player who gets the higher number on the dice wins. The game can be played by clicking the roll dice button.",
+    tags: ["Javascript", "Css", "Html"],
     category: "games",
     github: "https://github.com/aayush105/Dice-Game-Challenge",
     webapp: "https://aayush105.github.io/Dice-Game-Challenge/",
@@ -409,16 +402,14 @@ export const projects = [
     id: 9,
     title: "Tindog",
     image: tindog,
-    description: "It's a website for dogs where you can buy dogs. The website is designed using HTML, CSS and Bootstrap. The website is responsive and can be viewed on any device.",
-    tags: [
-      "Css",
-      "Html",
-    ],
+    description:
+      "It's a website for dogs where you can buy dogs. The website is designed using HTML, CSS and Bootstrap. The website is responsive and can be viewed on any device.",
+    tags: ["Css", "Html"],
     category: "web app",
     github: "https://github.com/aayush105/tindog",
     webapp: "https://aayush105.github.io/tindog/",
   },
-  
+
   // {
   //   id: 1,
   //   title: "ShareHub",
@@ -427,10 +418,10 @@ export const projects = [
   //   category: "web app",
   //   github: "",
   //   webapp: "",
-  
+
   // },
 
-  // format 
+  // format
 
   // {
   //   id: 0,
@@ -450,7 +441,6 @@ export const projects = [
   //   ],
   // },
 ];
-
 
 export const certifications = [
   {
@@ -474,7 +464,7 @@ export const certifications = [
     title: "Android Application Development",
     date: "2022",
     org: "Kantipur Engineering College",
-    desc:"Completed a comprehensive 60-hour training on Android Application Development at Kantipur Engineering College, facilitated by the Research Training and Consultancy Division (RTCD).",
+    desc: "Completed a comprehensive 60-hour training on Android Application Development at Kantipur Engineering College, facilitated by the Research Training and Consultancy Division (RTCD).",
     // link: "",
   },
 ];
@@ -525,7 +515,6 @@ export const participations = [
     id: 3,
     title: "Kathmandu Youth Conclave 2019",
     role: "Volunteer and Photographer",
-    desc: "Engaged as a volunteer and photographer at the Kathmandu Youth Conclave 2019, a significant national event promoting youth leadership and networking. Contributed to creating connections among youth from diverse sectors and capturing moments of our country&apos;s aspiring future leaders."
-  }
+    desc: "Engaged as a volunteer and photographer at the Kathmandu Youth Conclave 2019, a significant national event promoting youth leadership and networking. Contributed to creating connections among youth from diverse sectors and capturing moments of our country&apos;s aspiring future leaders.",
+  },
 ];
-
